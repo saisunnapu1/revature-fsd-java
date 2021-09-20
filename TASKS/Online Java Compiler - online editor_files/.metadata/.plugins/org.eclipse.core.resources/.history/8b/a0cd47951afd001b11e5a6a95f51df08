@@ -1,0 +1,14 @@
+
+public class Amain {
+
+	public static void main(String[] args) {
+		Animal a=new Animal();
+		a.eat();
+		Cat c=new Cat();
+		c.mew();
+		Dog d=new Dog();
+		d.bark();
+			
+	}
+
+}

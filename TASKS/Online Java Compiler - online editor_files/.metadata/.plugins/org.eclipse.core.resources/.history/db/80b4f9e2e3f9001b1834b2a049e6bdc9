@@ -1,0 +1,13 @@
+package Dates;
+
+import java.sql.Date;
+
+public class sql {
+
+	public static void main(String[] args) {
+		sql d=new sql();
+ 		System.out.println(d);
+
+	}
+
+}

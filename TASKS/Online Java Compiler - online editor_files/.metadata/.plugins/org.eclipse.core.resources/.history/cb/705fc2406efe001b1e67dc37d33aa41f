@@ -1,0 +1,15 @@
+package Overriding;
+
+public class O1 extends O2{
+int  deposit() {
+	 int y=333;
+	 return y;
+ }
+	public static void main(String[] args) {
+		O1 o=new O1();
+		int r=o.deposit();
+		int k=o.display();
+		System.out.println(k);
+	}
+
+}

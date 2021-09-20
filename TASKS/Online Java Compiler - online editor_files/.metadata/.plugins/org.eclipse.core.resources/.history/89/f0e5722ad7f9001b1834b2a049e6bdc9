@@ -1,0 +1,18 @@
+package Arrays;
+
+public class eg2 {
+
+	public static void main(String[] args) {
+		int arr[][]= new int[2][2];
+		arr[0][0]=1;
+		arr[0][1]=1;
+		arr[1][0]=1;
+		arr[1][1]=1;
+		for(int []x : arr) {
+			for(int y:x) {
+				System.out.println(y+" ");
+			}
+		System.out.println();}
+	}
+
+}

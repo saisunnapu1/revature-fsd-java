@@ -1,0 +1,8 @@
+package Overriding;
+
+public class O2 extends O1{
+	 O2(){
+		System.out.println("haiii");
+	}
+
+}

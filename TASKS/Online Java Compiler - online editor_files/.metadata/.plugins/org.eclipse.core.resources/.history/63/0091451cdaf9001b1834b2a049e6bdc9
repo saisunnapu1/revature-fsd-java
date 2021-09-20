@@ -1,0 +1,17 @@
+package Strings;
+
+public class eg1 {
+
+	public static void main(String[] args) {
+		String s1= new String("hello sai ");//stored in heap memory
+		String s2="hello java";//stored in string constant pool
+		int k=s1.length();
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(k);
+		System.out.println(s2.length());
+		System.out.println(s1.charAt(1));
+		System.out.println(s1.concat(s2));
+	}
+
+}

@@ -1,0 +1,19 @@
+package methods;
+
+public class Factorial {
+	int fact(int n) {
+		int x=n*fact(n-1);
+		return x;
+		
+	}
+	
+
+	public static void main(String[] args) {
+		Factorial f= new Factorial();
+		int o=f.fact(5);
+		System.out.println(o);
+		
+
+	}
+
+}

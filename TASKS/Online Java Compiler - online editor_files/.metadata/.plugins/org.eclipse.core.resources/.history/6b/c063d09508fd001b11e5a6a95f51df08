@@ -1,0 +1,18 @@
+
+public class eg3 {
+	static int x=33;
+	 static void m2() {
+		 System.out.println("i am static block");
+		 
+	 }
+	 void m1() {
+		 System.out.println("i instatnce method");
+		 System.out.println( x);
+	 }
+	public static void main(String[] args) {
+		eg3 i=new eg3();
+		i.m1();
+
+	}
+
+}

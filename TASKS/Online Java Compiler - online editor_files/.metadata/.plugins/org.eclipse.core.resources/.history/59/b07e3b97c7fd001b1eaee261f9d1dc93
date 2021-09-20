@@ -1,0 +1,10 @@
+
+public class Final {
+	void display() {
+		System.out.println("hello veeruuu");
+	}
+	void Display1() {
+		int x=33;
+		System.out.println(x);
+	}
+}

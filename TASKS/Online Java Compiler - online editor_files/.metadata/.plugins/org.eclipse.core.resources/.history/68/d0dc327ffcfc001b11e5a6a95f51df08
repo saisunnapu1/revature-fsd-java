@@ -1,0 +1,26 @@
+package Constructor;
+
+public class College {
+	int Roll;
+	String name;
+	 static String coolege="anits college";
+	
+
+	public static void main(String[] args) {
+		College s1=new College(1,"a");
+		College s2=new College(2,"b");
+		College s3=new College(3,"c");
+		College s4=new College(4,"d");
+		College s5=new College(5,"e");
+		
+
+	}College (int x,String y){
+		    Roll=x;
+		    name=y;
+		    System.out.println("----------------------");
+		    System.out.println("roll   "+"name   "+"college   ");
+		    System.out.println("----------------------");
+		    System.out.println(Roll);
+	}
+
+}

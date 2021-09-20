@@ -1,0 +1,16 @@
+package Super;
+
+public class S1 {
+	int x=333;
+ void m1() {
+	 int x=99;
+	 System.out.println(x);
+	 System.out.println(this.x);
+ }
+
+	public static void main(String[] args) {
+		S1 s=new S1();
+		s.m1();
+	}
+
+}

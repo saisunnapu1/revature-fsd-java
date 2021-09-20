@@ -1,0 +1,10 @@
+package Overriding;
+
+public class Var extends O2 {
+
+	public static void main(String[] args) {
+		var x="sd
+		System.out.println(x);
+	}
+
+}

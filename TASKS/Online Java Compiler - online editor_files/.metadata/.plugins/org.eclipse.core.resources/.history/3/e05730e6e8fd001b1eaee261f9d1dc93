@@ -1,0 +1,12 @@
+
+public class Overloading1 {
+	static void show(int x) {
+		System.out.println(x);
+		
+	}
+
+	public static void main(String[] args) {
+		show(5);
+	}
+
+}

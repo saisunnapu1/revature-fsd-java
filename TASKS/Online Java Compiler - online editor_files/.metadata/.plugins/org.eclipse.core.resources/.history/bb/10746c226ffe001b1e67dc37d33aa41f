@@ -1,0 +1,13 @@
+package Overriding;
+
+public class O2{
+	int deposit() {
+		int x=34;
+		return x;
+	}
+	
+	
+	
+	}
+
+

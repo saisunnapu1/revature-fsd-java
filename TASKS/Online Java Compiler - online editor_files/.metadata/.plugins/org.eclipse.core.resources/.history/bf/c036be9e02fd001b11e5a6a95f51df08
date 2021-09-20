@@ -1,0 +1,14 @@
+package Constructor;
+
+public class Counter {
+	 int count=0;
+	 Counter(){
+		 count++;
+		 System.out.println(count);
+		 }
+	public static void main(String[] args) {
+		Counter c=new Counter();
+		
+	}
+
+}

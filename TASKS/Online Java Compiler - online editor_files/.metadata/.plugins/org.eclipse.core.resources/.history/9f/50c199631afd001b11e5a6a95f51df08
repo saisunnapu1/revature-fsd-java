@@ -1,0 +1,12 @@
+
+public class Amain {
+
+	public static void main(String[] args) {
+		Cat c=new Cat();
+		c.mew();
+		Dog d=new Dog();
+		d.bark();
+			
+	}
+
+}

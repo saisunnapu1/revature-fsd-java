@@ -1,0 +1,13 @@
+
+public class Final {
+	public static void main(String[] args) {
+		Final l=new Final();
+
+	}
+
+	void  display(){
+		int x=33;
+		System.out.println(x);
+	}
+
+}

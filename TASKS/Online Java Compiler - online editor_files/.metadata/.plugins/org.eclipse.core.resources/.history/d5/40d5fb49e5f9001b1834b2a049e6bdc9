@@ -1,0 +1,10 @@
+package Dates;
+import java.util.Calendar;
+public class eg3 {
+
+	public static void main(String[] args) {
+		
+        Calendar call= new Calendar.getInstance();
+        System.out.println(call};
+
+}

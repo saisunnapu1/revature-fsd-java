@@ -1,0 +1,19 @@
+package methods;
+
+public class eg1 {
+    	  void add(){
+    		  int x=1;
+    		  int y=22;
+    		 System.out.println("c::::"+x+y);
+    		  
+    	  }
+      
+	public static void main(String[] args) {
+	 eg1 ar =new eg1();
+	 ar.add();
+	 
+	 
+
+	}
+
+}

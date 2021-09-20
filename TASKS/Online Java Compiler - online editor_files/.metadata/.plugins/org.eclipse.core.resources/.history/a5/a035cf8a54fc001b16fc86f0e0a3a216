@@ -1,0 +1,6 @@
+package Strings;
+
+public class School {
+	int roll=123;
+	String name="kamal hasan";
+}

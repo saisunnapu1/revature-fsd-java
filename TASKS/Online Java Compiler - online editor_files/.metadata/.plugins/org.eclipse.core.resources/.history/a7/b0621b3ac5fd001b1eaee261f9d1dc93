@@ -1,0 +1,21 @@
+
+public class Final {
+ int x=33;
+	public static void main(String[] args) {
+		Final o=new Final (39);
+		int f=o.display();
+				System.out.println(f);
+		}
+		//System.out.println(x);
+	
+	Final(int y){
+		this.x=y;
+		System.out.println(x);
+		
+	}
+	int display(){
+		x=x+33;
+		return x;
+	}
+
+}

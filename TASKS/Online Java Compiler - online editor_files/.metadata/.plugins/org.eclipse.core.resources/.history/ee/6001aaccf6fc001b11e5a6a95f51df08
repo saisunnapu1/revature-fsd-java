@@ -1,0 +1,19 @@
+package Constructor;
+
+public class This {
+	int x=1;//instance variable
+	String name="sai";
+	void display() {
+		int x=20;
+		String name="kumar"
+		System.out.println(this.name);
+		
+	}
+	public static void main(String[] args) {
+		This s1=new This();
+		s1.display();
+		
+		
+	}
+
+}

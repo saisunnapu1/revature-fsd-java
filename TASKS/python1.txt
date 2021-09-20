@@ -1,0 +1,16 @@
+#interest of 10% on above 1000 in an array
+n=int(input())
+sai=[]
+for i in range(0,n):
+ e=int(input())
+ sai.append(e)
+ sum=0
+for each in sai:
+    if each>=1000:
+        interest=0.1*each
+        sum=sum+interest
+    else:
+        print(each)
+        
+        
+print(sum)

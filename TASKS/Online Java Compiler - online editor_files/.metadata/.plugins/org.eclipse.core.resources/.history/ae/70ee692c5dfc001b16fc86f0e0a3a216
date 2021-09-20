@@ -1,0 +1,20 @@
+package Constructor;
+
+public class Student {
+	int roll;
+	String name;
+
+	public static void main(String[] args) {
+		Student s1=new Student(33,"kiran");
+		Student s2=new Student(34,"sai");
+		Student s3=new Student(93,"kumar");
+				
+	}Student(int x,String n){
+		roll=x;
+		name=n;
+		System.out.println(roll);
+		System.out.println(name);
+		
+	}
+
+}

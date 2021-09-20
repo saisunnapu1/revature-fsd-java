@@ -1,0 +1,23 @@
+#max and min difference in array
+n=int(input())
+sai=[]
+for i in range(0,n):
+ e=int(input())
+ sai.append(e)
+#min=sai[0]
+#max=sai[len(sai)-1]
+#print(max-min)
+diff=sai[1]-sai[0]
+diff1=sai[1]-sai[0]
+for i in range (1,n):
+    value=sai[i]-sai[i-1]
+    if value>diff:
+        diff=value
+print("max diff is:::::")
+print(diff)
+for j in range (1,n):
+    value=sai[i]-sai[i-1]
+    if value<diff1:
+        diff1=value
+print("min diff is:::::")
+print(diff1)

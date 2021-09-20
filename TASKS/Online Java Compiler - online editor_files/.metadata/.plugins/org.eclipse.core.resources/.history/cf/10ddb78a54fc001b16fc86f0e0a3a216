@@ -1,0 +1,26 @@
+package Strings;
+
+public class MethodObject {
+	public static void main(String[] args) {
+		Student s=new Student();
+		School i=new School();
+		MethodObject m= new MethodObject();
+		m.display(i);
+		}
+      void display(School cc) {
+    	 System.out.println(cc.name); 
+      }
+	
+
+	
+}
+
+
+
+
+class Student{
+	int roll=123;
+	String name="sai";
+	int marks =88;
+	
+}

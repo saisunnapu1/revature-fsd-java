@@ -1,0 +1,18 @@
+
+public class Final {
+ int x=33;
+	int display(){
+		x=x+33;
+		return x;
+	}
+
+}
+class Finall extends Final{
+	public static void main(String[] args) {
+		Final o=new Final();
+		o.display();
+		
+	}
+	
+	
+}
